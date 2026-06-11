@@ -23,6 +23,7 @@ header{
     text-align: left;
     padding: 15px;
     color :rgb(34, 34, 88);
+    gap:20px;
 }
 
 /*-----------------------------------------------------------------*/
@@ -35,10 +36,14 @@ header{
     background-repeat: no-repeat;
     padding: 40px 10px;
     place-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
-    width : 80%;
+    width : 100%;
 }
 
 .next{
